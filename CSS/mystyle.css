@@ -11,3 +11,15 @@ body{
 h4{
     color: darkgreen;
 }
+header{
+    border:4px double red
+}
+.navbar{
+    border: 2px solid;
+    padding: 10px;
+    background-color: black;
+}
+.navbar a{
+    padding: 10px;
+    color: white;
+}
