@@ -11,7 +11,7 @@ body{
 h4{
     color: darkgreen;
 }
-header{
+header,footer{
     border:4px double red
 }
 .navbar{
@@ -22,4 +22,8 @@ header{
 .navbar a{
     padding: 10px;
     color: white;
+}
+
+footer p{
+    background: yellow;
 }
