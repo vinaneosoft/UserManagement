@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="./CSS/mystyle.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="./index.html">HOME</a> <a href="./ListDemo.html">LISTS</a>  <a href="./TableDemo.html">TABLES</a>
+        </nav>
+        <h1>USER MANAGEMENT</h1>
+    </header>
+    <table> <!--  border="3" style="border-collapse: collapse;"-->
+        <caption><b>STUDENT DETAILS</b></caption>
+        <thead>
+            <tr>
+                <th>ID</th>  <th>NAME</th>  <th>BRANCH</th>  <th>YEAR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>Shivani Gupta</td> <td>Computer</td> <td>FE</td>
+            </tr>
+            <tr>
+                <td>2</td> <td>Prajakta Mali</td> <td>Electronics</td> <td rowspan="3">SE</td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Suhas Patil</td> <td>Computer</td>
+            </tr>
+            <tr>
+                <td>4</td> <td>Prathamesh Patil</td> <td>CIVIL</td> 
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="4">this is footer section</td></tr>
+        </tfoot>
+        
+    </table>
+    <h4>STUDENT DETAILS</h4>
+    <table> <!--  border="3" style="border-collapse: collapse;"-->
+        <caption>STUDENT DETAILS</caption>
+        <thead>
+            <tr>
+                <th>ID</th>  <th>NAME</th>  <th>BRANCH</th>  <th>YEAR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td> <td>Shivani Gupta</td> <td>Computer</td> <td>FE</td>
+            </tr>
+            <tr>
+                <td>2</td> <td>Prajakta Mali</td> <td>Electronics</td> <td rowspan="3">SE</td>
+            </tr>
+            <tr>
+                <td>3</td> <td>Suhas Patil</td> <td>Computer</td>
+            </tr>
+            <tr>
+                <td>4</td> <td>Prathamesh Patil</td> <td>CIVIL</td> 
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="4">this is footer section</td></tr>
+            <tr><td colspan="4">this is footer section</td></tr>
+        </tfoot>
+    </table>
+    <p>
+        This paragraph added while fixing the bug in emergencybugfix branch
+    </p>
+    <footer>
+       
+        <ol>
+            <li>bug fixed</li>
+            <li>new feature</li>
+        </ol>
+    </footer>
+</body>
+</html>
